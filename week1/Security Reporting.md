@@ -183,3 +183,24 @@ e.	500 social media followers:
 
 
 # Part III: Verizon
+1.	What is the difference between an incident and a breach? 
+
+2.	What percentage of breaches were perpetrated by outside actors? What percentage were perpetrated by internal actors? 
+
+3.	What percentage of breaches were perpetrated by organized criminal groups? 
+
+
+4.	What percentage of breaches were financially motivated? 
+
+
+5.	Define the following: 
+
+Denial of Service: 
+Command and Control 
+Backdoor:
+Keylogger: 
+
+6.	The time from an attacker’s first action to the initial compromise of an asset is typically measured in which one? Seconds, minutes, hours, days? 
+
+
+7.	When it comes to phishing, which industry has the highest click rates?
