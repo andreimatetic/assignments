@@ -195,10 +195,10 @@ e.	500 social media followers:
 
 5.	Define the following: 
 
-Denial of Service: 
-Command and Control 
-Backdoor:
-Keylogger: 
+- Denial of Service: 
+- Command and Control: 
+- Backdoor:
+- Keylogger: 
 
 6.	The time from an attacker’s first action to the initial compromise of an asset is typically measured in which one? Seconds, minutes, hours, days? 
 
