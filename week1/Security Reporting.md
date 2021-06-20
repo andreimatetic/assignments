@@ -121,7 +121,7 @@
 
 29.	Regarding Internet of Things (IoT) attacks, what were the two most common infected devices and what percentage of IoT attacks were attributed to them?
 
-    A:
+    A: Routers & connected cameras  >90% combined
 
 
 30.	What is the Mirai worm and what does it do? 
@@ -202,20 +202,33 @@
 
 45.	What was the top user name used in IoT attacks? 
 
+    A: `root`
+
 
 46.	What was the top password used in IoT attacks? 
+
+    A: `123456`
 
 
 47.	What were the top three protocols used in IoT attacks? What were the top two ports used in IoT attacks? 
 
+    A1: `telnet`, `http`, and `https`
+    
+    A2: `23 - telnet`  and `80 - http`
+
 
 48.	In the underground economy, how much can someone get for the following? 
 
-a.	Stolen or fake identity: 
-b.	Stolen medical records: 
-c.	Hacker for hire: 
-d.	Single credit card with full details: 
-e.	500 social media followers: 
+    a.	Stolen or fake identity:                    $0.10 - $1.50
+    
+    b.	Stolen medical records:                     $0.10 - $35 
+    
+    c.	Hacker for hire:                            $100+
+    
+    d.	Single credit card with full details:       $1 - $45
+    
+    e.	500 social media followers:                 $2 - $6
+    
 
 # Part II: Akamai
 1.	DDOS attack events from January 2019 to September 2019 largely targeted which industry? 
