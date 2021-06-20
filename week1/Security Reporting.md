@@ -23,7 +23,7 @@
     
 7.	How did Magecart successfully attack Ticketmaster?
  
-    A:
+    A: Initial access was obtained by comprimising chatbot code used for customer support. From here, Magecart was able to inject the formjacking javacript code.  
     
 8.	What is one reason why there has been a growth of formjacking? 
 
