@@ -1,17 +1,17 @@
 # Part I: Symantec
 1.	What is formjacking?
+A: Symantec created the term _formjacking_ to describe malicious javascript code inserted into the checkout processing pages of shopping sites. When an order is submitted, the formjacking code copies the user and payment details and sends it to the attacker's designated server.
 
 2.	How many websites are compromised each month with formjacking code? 
-
+A: An average of 4800 websites per month
 
 3.	What is Powershell?
 
-
 4.	What was the annual percentage increase in malicious Powershell scripts?
-
+A: 1000%
 
 5.	What is a coinminer?
-
+A: A program or script that uses CPU (or GPU) cycles to mine a cryptocurrency (e.g. Bitcoin).
 
 6.	How much can data from a single credit card can be sold for? 
 
@@ -22,7 +22,7 @@
 
 
 9.	Cryptojacking dropped by what percentage between January and December 2018?
-
+A: 52%
 
 10.	If a web page contains a coinmining script, what happens? 
 
