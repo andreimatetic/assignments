@@ -53,7 +53,7 @@
     
 14.	Even though ransomware attacks declined in 2017-2018, what was one dramatic change that occurred? 
 
-    A: The shift of victim type accelerated from individual consumers to enterprise customers.
+    A: The shift of victim type from individual consumers to enterprise customers accelerated3.
     
 15.	In 2018, what was the primary ransomware distribution method? 
 
@@ -87,37 +87,37 @@
 
 22.	What are supply chain attacks? By how much did they increase in 2018?
 
-    A: 
+    A:  Rather than directly attacking a target, supply chain attack attacks compromise 3rd party services and vendors (e.g. stealing version control credentials, stealing valid certificate credentials to sign malicious code, compromising 3rd party libraries) as a means to reach the intended target.  Increased by 78% in 2018.
 
 
 23.	What challenge do supply chain attacks and living off the land attacks highlight for organizations?
 
-    A:
+    A: These arrive through trusted channels or use legitimate tools for malicous purposes.
 
 
 24.	The 20 most active groups tracked by Symantec targeted an average of how many organizations between 2016 and 2018?
 
-    A:
+    A: An average of 55 organizations (up from 42 during the previous three year period).
 
 
 25.	How many individuals or organizations were indicted for cyber criminal activities in 2018? What are some of the countries that these entities were from?
 
-    A:
+    A: 49  Russia, China, Iran, and North Korea
 
 
 26.	When it comes to the increased number of cloud cybersecurity attacks, what is the common theme?
 
-    A:
+    A: Poorly configured cloud resources 
 
 
 27.	What is the implication for successful cloud exploitation that provides access to memory locations that are normally forbidden?
 
-    A:
+    A: Shared pools of memory could result in data leaks from different cloud instances
 
 
 28.	What are two examples of the above cloud attack?
 
-    A:
+    A: Meltdown and Spectre
 
 
 29.	Regarding Internet of Things (IoT) attacks, what were the two most common infected devices and what percentage of IoT attacks were attributed to them?
