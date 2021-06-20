@@ -9,6 +9,8 @@
 
 3.	What is Powershell?
 
+    A: An object-orientated successor command line processor to `cmd.exe` in Windows. Has an associated scripting language.   
+
 4.	What was the annual percentage increase in malicious Powershell scripts?
 
     A: 1000%
@@ -27,7 +29,7 @@
     
 8.	What is one reason why there has been a growth of formjacking? 
 
-    A:
+    A: Cryptocurrency values were quite volitile in 2018. Compared to declining crypto valuation, stolen CC informaion has a more consistent rate of return.
     
 9.	Cryptojacking dropped by what percentage between January and December 2018?
 
@@ -63,11 +65,11 @@
     
 17.	What are “living off the land” attacks? What is the advantage to hackers? 
 
-    A:
+    A: Not an attack per say but using operating system tools (e.g. ps exec, WMI, or powershell) to comprimise additional systems after obtaining initial access.  These tools are used for legitimate administrative purposes and can blend into network traffic.
     
 18.	What is an example of a tool that’s used in “living off the land” attacks?
 
-    A:
+    A: PS Exec, Windows Management Instrumentation (WMI), powershell, VB scripts
     
 19.	What are zero-day exploits?
 
