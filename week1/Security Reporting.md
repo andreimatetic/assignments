@@ -1,62 +1,82 @@
 # Part I: Symantec
 1.	What is formjacking?
-A: Symantec created the term _formjacking_ to describe malicious javascript code inserted into the checkout processing pages of shopping sites. When an order is submitted, the formjacking code copies the user and payment details and sends it to the attacker's designated server.
 
-2.	How many websites are compromised each month with formjacking code? 
-A: An average of 4800 websites per month
+    A: Symantec created the term _formjacking_ to describe malicious javascript code inserted into the checkout processing pages of shopping sites. When an order is submitted, the formjacking code copies the user and payment details and sends it to the attacker's designated server.
+
+2.	How many websites are compromised each month with formjacking code?
+ 
+    A: An average of 4800 websites per month
 
 3.	What is Powershell?
 
 4.	What was the annual percentage increase in malicious Powershell scripts?
-A: 1000%
+
+    A: 1000%
 
 5.	What is a coinminer?
-A: A program or script that uses CPU (or GPU) cycles to mine a cryptocurrency (e.g. Bitcoin).
+
+    A: A program or script that uses CPU (or GPU) cycles to mine a cryptocurrency (e.g. Bitcoin).
 
 6.	How much can data from a single credit card can be sold for? 
 
-
-7.	How did Magecart successfully attack Ticketmaster? 
-
+    A: Up to $45 for a single credit card.
+    
+7.	How did Magecart successfully attack Ticketmaster?
+ 
+    A:
+    
 8.	What is one reason why there has been a growth of formjacking? 
 
-
+    A:
+    
 9.	Cryptojacking dropped by what percentage between January and December 2018?
-A: 52%
+
+    A: 52%
 
 10.	If a web page contains a coinmining script, what happens? 
 
-
+    A: CPU usage on the vicitm's device increases as the additional cycles are used to mine cryptocurrency.
+    
 11.	How does an exploit kit work? 
 
-
+    A:
+    
 12.	What does the criminal group SamSam specialize in? 
 
-
+    A:
+    
 13.	How many SamSam attacks did Symantec find evidence of in 2018? 
 
-
+    A:
+    
 14.	Even though ransomware attacks declined in 2017-2018, what was one dramatic change that occurred? 
 
-
+    A:
+    
 15.	In 2018, what was the primary ransomware distribution method? 
 
-
+    A:
+    
 16.	What operating systems do most types of ransomware attacks still target?
 
-
+    A:
+    
 17.	What are “living off the land” attacks? What is the advantage to hackers? 
 
-
+    A:
+    
 18.	What is an example of a tool that’s used in “living off the land” attacks?
 
-
+    A:
+    
 19.	What are zero-day exploits?
 
-
+    A:
+    
 20.	By what percentage did zero-day exploits decline in 2018? 
 
-
+    A:
+    
 21.	What are two techniques that worms such as Emotet and Qakbot use?
 
 
@@ -195,10 +215,21 @@ e.	500 social media followers:
 
 5.	Define the following: 
 
-- Denial of Service: 
+- Denial of Service:
+
+    A: An attack against the availability of a service/system. More often, many machines are used in concert (Distributed Denial of Service) to overwhelm the target. Can also take advantage of amplification attacks where a small request results in a large amount of data sent in reply to the victim.  
+    
 - Command and Control: 
+
+    A: One or more servers in a botnet that receive data from from comprimised machines and sends instructions on what to do next.
+    
 - Backdoor:
-- Keylogger: 
+
+    A: An access method that bypasses normal authentication. Sometimes put into code for _debug_ purposes and not removed from production. Could also be placed by malware and provide a remote shell into a system.
+    
+- Keylogger:
+ 
+    A: Software that captures and records keystrokes entered by the user. Could also be a hardware device [keyboard <-> keylogger <-> host connection (e.g. USB)].
 
 6.	The time from an attacker’s first action to the initial compromise of an asset is typically measured in which one? Seconds, minutes, hours, days? 
 
