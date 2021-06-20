@@ -41,15 +41,15 @@
     
 11.	How does an exploit kit work? 
 
-    A:
+    A: When the victim arrives, scanning code in the kit determines which exploit (in its bundle) best matches the victim's configuration and then serves it. 
     
 12.	What does the criminal group SamSam specialize in? 
 
-    A:
+    A: Highly damaging targeted ransomware attacks
     
 13.	How many SamSam attacks did Symantec find evidence of in 2018? 
 
-    A:
+    A: 67
     
 14.	Even though ransomware attacks declined in 2017-2018, what was one dramatic change that occurred? 
 
@@ -73,7 +73,7 @@
     
 19.	What are zero-day exploits?
 
-    A: 
+    A: Based on a zero-day vulnerability and the applicable vendor is unaware of the flaw's existence.
     
 20.	By what percentage did zero-day exploits decline in 2018? 
 
@@ -81,12 +81,13 @@
     
 21.	What are two techniques that worms such as Emotet and Qakbot use?
 
-    A: dumping passwords from memory or brute-forcing access to network shares
+    A: 1. Dumping passwords from memory 
+       2. brute-forcing access to network shares
 
 
 22.	What are supply chain attacks? By how much did they increase in 2018?
 
-    A:
+    A: 
 
 
 23.	What challenge do supply chain attacks and living off the land attacks highlight for organizations?
