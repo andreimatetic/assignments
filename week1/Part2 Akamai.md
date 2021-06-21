@@ -16,21 +16,21 @@
 
 4.	What is credential stuffing? 
 
-    A:
+    A: Credential stuffing is a type of attack that reuses leaked/dumped credentials from one breach against another service/website. Credential stuffing takes advantage that alot of people reuse credentials (usernames/passwords) across multiple services.
 
 
 5.	Which country is the number one source of credential abuse attacks? Which country is number 2?
 
-    A:
+    A:  #1 United States  #2 Russia
 
 
 6.	Which country is the number one source of web application attacks? Which country is number 2?
 
-    A:
+    A:  #1 United States #2 Russia
 
 
 7.	In Akamai’s State of the Internet report, it refers to a possible DDoS team that the company thought was affecting a customer in Asia (starts on page 11). 
--	Describe what was happening.
+-	Describe what was happening.  A: A customer in Asia received a high volume of traffic. As many as 875k requests/sec
 -	What did the team believe the source of the attack was? 
 -	What did the team actually discover? 
 
@@ -42,5 +42,8 @@
 
 
 10.	What are two evasion techniques that malicious bots use? 
+
+    A: Alter HTTP headers like `User.Agent` to appear like other browsers, mobile applications, or even _known-good_ bots.
+       Chamge the IP address or use multiple origin IP addresses. 
 
 
