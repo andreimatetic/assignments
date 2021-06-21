@@ -127,12 +127,12 @@
 
 30.	What is the Mirai worm and what does it do? 
 
-    A:
+    A: A worm that instigated Distributed Denial of Service (DDoS) attacks
 
 
 31.	Why was Mirai the third most common IoT threat in 2018? 
 
-    A:
+    A: Continued evolution and adding new exploits to use. Expanded target scope to include Linux servers
 
 
 32.	What was unique about VPNFilter with regards to IoT threats?
@@ -167,33 +167,33 @@
 
 38.	What is Emotet and how much did it jump in 2018? 
 
-    A:
+    A: A self-propagating worm.  Up to 16% from 4% ... A 300% increase
 
 
 39.	What was the top malware threat of the year? How many of those attacks were blocked?
 
-    A:
+    A: Heur.AdvML.C  Nearly 44 million
 
 
 40.	Malware primarily attacks which type of operating system? 
 
-    A:
+    A: Primarily Windows based machines
 
 
 41.	What was the top coinminer of 2018 and how many of those attacks were blocked? 
 
-    A:
+    A: JS.Webcoinminer  almost 2.8 million attacks blocked
 
 
 
 42.	What were the top three financial Trojans of 2018? 
 
-    A:
+    A: Ramnit, Zbot, and Emotet
 
 
 43.	What was the most common avenue of attack in 2018? 
 
-    A:
+    A: Macros in Office documents
 
 
 44.	What is destructive malware? By what percent did these attacks increase in 2018? 
