@@ -198,7 +198,7 @@
 
 44.	What is destructive malware? By what percent did these attacks increase in 2018? 
 
-    A:
+    A: Malware whoose primary intent is to render a device inoperative or destroy data (e.g. disk wiper).  Increased by 25% by 2018
 
 
 45.	What was the top user name used in IoT attacks? 
