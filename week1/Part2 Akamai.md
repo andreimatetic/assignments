@@ -1,17 +1,17 @@
 # Part II: Akamai
 1.	DDOS attack events from January 2019 to September 2019 largely targeted which industry? 
 
-    A:
+    A: Gaming
 
 
 2.	Almost 50% of unique targets for DDoS attacks from January 2019- September 2019 largely targeted which industry? 
 
-    A:
+    A: Finanical Services
 
 
 3.	Which companies are the top phishing targets, according to Akamai? 
 
-    A:
+    A: Microsoft, PayPal, DHL, Dropbox, DocuSign, and LinkedIn
 
 
 4.	What is credential stuffing? 
