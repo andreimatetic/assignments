@@ -30,9 +30,14 @@
 
 
 7.	In Akamai’s State of the Internet report, it refers to a possible DDoS team that the company thought was affecting a customer in Asia (starts on page 11). 
--	Describe what was happening.  A: A customer in Asia received a high volume of traffic. As many as 875k requests/sec
+-	Describe what was happening.  
+    A: A customer in Asia received a high volume of traffic. As many as 875k requests/sec
 -	What did the team believe the source of the attack was? 
--	What did the team actually discover? 
+
+    A:
+-	What did the team actually discover?
+
+    A:
 
 
 8.	What is an example of a performance issue with bot traffic? 
