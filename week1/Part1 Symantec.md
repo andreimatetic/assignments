@@ -220,15 +220,15 @@
 
 48.	In the underground economy, how much can someone get for the following? 
 
-    a.	Stolen or fake identity:                    $0.10 - $1.50
+    a.	Stolen or fake identity:                    `$0.10 - $1.50`
     
-    b.	Stolen medical records:                     $0.10 - $35 
+    b.	Stolen medical records:                     `$0.10 - $35` 
     
-    c.	Hacker for hire:                            $100+
+    c.	Hacker for hire:                            `$100+`
     
-    d.	Single credit card with full details:       $1 - $45
+    d.	Single credit card with full details:       `$1 - $45`
     
-    e.	500 social media followers:                 $2 - $6
+    e.	500 social media followers:                 `$2 - $6`
     
 
 
