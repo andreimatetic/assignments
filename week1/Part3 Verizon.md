@@ -1,12 +1,16 @@
 # Part III: Verizon
-1.	What is the difference between an incident and a breach? 
+1.	What is the difference between an incident and a breach?  
+    A: An incident is an event that affects the confidentially, integrity, or availability of an asset. The event has the potential to inappropriately disclose information. When actualized and the disclosure is **confirmed**, the incident is classified as a breach.
 
-2.	What percentage of breaches were perpetrated by outside actors? What percentage were perpetrated by internal actors? 
+2.	What percentage of breaches were perpetrated by outside actors? What percentage were perpetrated by internal actors?  
+    A: 69% outside actor  
+       34% internal actor
 
-3.	What percentage of breaches were perpetrated by organized criminal groups? 
+3.	What percentage of breaches were perpetrated by organized criminal groups?   
+    A: 39%
 
-
-4.	What percentage of breaches were financially motivated? 
+4.	What percentage of breaches were financially motivated?  
+    A: 71%
 
 
 5.	Define the following: 
@@ -27,7 +31,9 @@
  
     A: Software that captures and records keystrokes entered by the user. Could also be a hardware device [keyboard <-> keylogger <-> host connection (e.g. USB)].
 
-6.	The time from an attacker’s first action to the initial compromise of an asset is typically measured in which one? Seconds, minutes, hours, days? 
+6.	The time from an attacker’s first action to the initial compromise of an asset is typically measured in which one? Seconds, minutes, hours, days?  
+    A: Minutes.  Unfortunately, discovery time lags much further behind.
 
 
-7.	When it comes to phishing, which industry has the highest click rates?
+7.	When it comes to phishing, which industry has the highest click rates?  
+    A: Education (4.93%)
