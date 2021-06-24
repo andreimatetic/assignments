@@ -28,4 +28,11 @@ Training is part of any security culture framework plan. How will you train your
 - What topics will you cover in your training and why? (This should be the bulk of the deliverable.)  
 - After you’ve run your training, how will you measure its effectiveness?  
 
-### Bonus: Other Solutions
+### Bonus: Other Solutions  
+Training alone often isn't the entire solution to a security concern.  
+
+Indicate at least two other potential solutions. For each one, indicate the following:   
+- What type of control is it? Administrative, technical, or physical?  
+- What goal does this control have? Is it preventive, deterrent, detective, corrective, or compensating?  
+- What is one advantage of each solution?  
+- What is one disadvantage of each solution?  
