@@ -10,8 +10,12 @@ Employees at SilverCorp are increasingly using their own personal devices for co
 
 ### Step 1: Measure and Set Goals  
 1. Using outside research, indicate the potential security risks of allowing employees to access work information on their personal devices. Identify at least three potential attacks that can be carried out.  
+    - Inappropriate disclosure of confidential information [if someone other than employee uses the phone, shoulder surfing (more plausible with a tablet),captured over insecure wifi, exfilrtated by mobile malware]  
+    - Ransomware encrypting the phone or tablet  
+    - Malware using the phone as a pivot point into the corportate network
 
 2. Based on the above scenario, what is the preferred employee behavior?  
+    - Unless an approved MDM (mobile device management) solution is installed, personal phones or tablets are not to be used to access 
 
 3. What methods would you use to measure how often employees are currently not behaving according to the preferred behavior?  
 
