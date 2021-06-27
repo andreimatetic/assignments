@@ -15,7 +15,7 @@ Employees at SilverCorp are increasingly using their own personal devices for co
     - Malware using the phone as a pivot point into the corportate network
 
 2. Based on the above scenario, what is the preferred employee behavior?  
-    - Unless an approved MDM (mobile device management) solution is installed, personal phones or tablets are not to be used to access 
+    - Unless an approved MDM (mobile device management) solution is installed, personal phones or tablets are not to be used to access work email and applications. Alternatively, a corporate issued device may be used (configured with MDM and remote wipe). Corporate material, regardless of classification, is not to be shared across Slack (use an aprroved file sharing service).  
 
 3. What methods would you use to measure how often employees are currently not behaving according to the preferred behavior?  
 
@@ -23,12 +23,17 @@ Employees at SilverCorp are increasingly using their own personal devices for co
 
 ### Step 2: Involve the Right People  
 - Indicate at least five employees or departments that need to be involved. For each person or department, indicate in 2-3 sentences what their role and responsibilities will be.  
+    1. C-suite (CEO,CIO, and CISO if there's one): Direction needs to come from the top (bottom up change does not work). The _C people_ are liable (i.e. sueable) for compliance failures.    
+    2. Human Resources: maintaining employee compliance records and disciplinary records. Handles employee separation.
+    3. Legal:
+    4. Education: Responsible for either developing and delivering training or determing what preexisting training solution to use.
+    5. Line management: responsible for their direct reports completing the training and fielding their questions.  
 
 ### Step 3: Training Plan  
 Training is part of any security culture framework plan. How will you train your employees on this security concern? In one page, indicate the following:
 
 - How frequently will you run training? What format will it take? (i.e. in-person, online, a combination of both)  
-    A: At a minimum annually and as part of new employee onboarding.  
+    A: At a minimum annually and as part of new employee onboarding.  Refresher training as needed (e.g. fail rate ticks above threshold or after an incident).   
 - What topics will you cover in your training and why? (This should be the bulk of the deliverable.)  
 - After you’ve run your training, how will you measure its effectiveness?  
 
