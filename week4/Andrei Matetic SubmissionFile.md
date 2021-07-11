@@ -50,7 +50,11 @@ HOME=/home  (uncommented)
 
 2. Ensure that only the `admin` has general sudo access.
 
-    - Command to add `admin` to the `sudo` group: ` sudo usermod -a -G sudo admin `  
+    - Command to add `admin` to the `sudo` group: ` sudo usermod -a -G sudo admin `    
+```
+grep sudo /etc/group
+sudo:x:27:sysadmin,instructor,student,jack,admin 
+```
 
 ### Step 3: Create User Group and Collaborative Folder
 
@@ -59,7 +63,7 @@ HOME=/home  (uncommented)
     - Command to add group: `sudo addgroup engineers`
 ```
 Adding group `engineers' (GID 1015) ...
-Done.
+Done. 
 ```
 
 2. Add users `sam`, `joe`, `amy`, and `sara` to the managed group.
