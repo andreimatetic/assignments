@@ -75,20 +75,21 @@ HOME=/home  (uncommented)
 ### Step 4: Lynis Auditing
 
 1. Command to install Lynis: sysadmin@UbuntuDesktop:~$ ` sudo apt install lynis `  
+```
 [sudo] password for sysadmin:
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 lynis is already the newest version (2.6.2-1).
+```
 
+2. Command to see documentation and instructions:  `man lynis`  
 
-2. Command to see documentation and instructions: man lynis
-
-3. Command to run an audit: lynis audit system (can run with or without sudo )
+3. Command to run an audit: `lynis audit system`  (can run with or without sudo )  
 
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
-    - Screenshot of report output: uploaded lynis.log to github with this file.
+    - Screenshot of report output: `uploaded lynis.log to github with this file.`
 
 
 ### Bonus
