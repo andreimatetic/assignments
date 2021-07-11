@@ -4,27 +4,30 @@
 
 1. Permissions on `/etc/shadow` should allow only `root` read and write access.
 
-    - Command to inspect permissions:  ls -l /etc/shadow  
-     -rw-r----- 1 root shadow 2880 Jul  8 18:16 /etc/shadow  
+    - Command to inspect permissions:  
+ ` ls -l /etc/shadow`    
+ `    -rw-r----- 1 root shadow 2880 Jul  8 18:16 /etc/shadow `    
     group shadow has read permission
 
     - Command to set permissions (if needed):  
-    sysadmin@UbuntuDesktop:~$ sudo chmod g-r /etc/shadow  
-    [sudo] password for sysadmin:
-    sysadmin@UbuntuDesktop:~$ ls -l /etc/shadow
+   ```
+    sudo chmod g-r /etc/shadow    
+    [sudo] password for sysadmin:  
+    ls -l /etc/shadow  
     -rw------- 1 root shadow 2880 Jul  8 18:16 /etc/shadow
-
+    ```
+    
 2. Permissions on `/etc/gshadow` should allow only `root` read and write access.
 
-    - Command to inspect permissions: ls -l /etc/gshadow
-    -rw-r----- 1 root shadow 1076 May 14 15:31 /etc/gshadow
+    - Command to inspect permissions: ` ls -l /etc/gshadow `    
+    ` -rw-r----- 1 root shadow 1076 May 14 15:31 /etc/gshadow `
 group shadow has read permission
 
-    - Command to set permissions (if needed):
-    sysadmin@UbuntuDesktop:~$ sudo chmod g-r /etc/gshadow
+    - Command to set permissions (if needed): ` sudo chmod g-r /etc/gshadow `    
+  ```
     sysadmin@UbuntuDesktop:~$ ls -l /etc/shadow
     -rw------- 1 root shadow 2880 Jul  8 18:16 /etc/shadow
-
+  ```
 
 3. Permissions on `/etc/group` should allow `root` read and write access, and allow everyone else read access only.
 
@@ -71,7 +74,7 @@ HOME=/home  (uncommented)
 
 ### Step 4: Lynis Auditing
 
-1. Command to install Lynis: sysadmin@UbuntuDesktop:~$ sudo apt install lynis
+1. Command to install Lynis: sysadmin@UbuntuDesktop:~$ ` sudo apt install lynis `  
 [sudo] password for sysadmin:
 Reading package lists... Done
 Building dependency tree       
