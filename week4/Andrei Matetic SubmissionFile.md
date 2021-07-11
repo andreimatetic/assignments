@@ -125,11 +125,11 @@ lynis is already the newest version (2.6.2-1).
 
 
 ### Bonus
-1. Command to install chkrootkit:
+1. Command to install chkrootkit:  `sudo apt install chkrootkit`   
 
-2. Command to see documentation and instructions:
+2. Command to see documentation and instructions: `man chkrootkit`  
 
-3. Command to run expert mode:
+3. Command to run expert mode: `sudo chkrootkit -x`
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
     - Screenshot of end of sample output:
