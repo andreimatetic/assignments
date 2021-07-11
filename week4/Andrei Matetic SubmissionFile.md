@@ -40,13 +40,22 @@ group shadow has read permission
     - Command to set permissions (if needed):
 
 ### Step 2: Create User Accounts
-N.B. I updated /etc/default/useradd with:
-SHELL=/bin/bash
-HOME=/home  (uncommented)  
+```
+N.B. I updated /etc/default/useradd with:  
+SHELL=/bin/bash  
+HOME=/home  (uncommented)    
+```
 
 1. Add user accounts for `sam`, `joe`, `amy`, `sara`, and `admin`.
 
-    - Command to add each user account (include all five users):
+    - Command to add each user account (include all five users):  
+```    
+sudo useradd -m sam
+sudo useradd -m joe
+sudo useradd -m amy
+sudo useradd -m sara
+sudo useradd -m admin
+```
 
 2. Ensure that only the `admin` has general sudo access.
 
@@ -68,7 +77,16 @@ Done.
 
 2. Add users `sam`, `joe`, `amy`, and `sara` to the managed group.
 
-    - Command to add users to `engineers` group (include all four users):   
+    - Command to add users to `engineers` group (include all four users):  
+```
+sudo usermod -a -G engineers sam
+sudo usermod -a -G engineers joe
+sudo usermod -a -G engineers amy
+sudo usermod -a -G engineers sara
+   
+grep engineers /etc/group
+engineers:x:1015:sam,joe,amy,sara
+```
 
 3. Create a shared folder for this group at `/home/engineers`.
 
@@ -82,7 +100,7 @@ Done.
 
     - Command to change ownership of engineer's shared folder to engineer group:  `sudo chown :engineers /home/engineers/`   
 ```
-ls -l /home/ | grep engineer
+ls -l /home/ | grep engineers
 drwxr-xr-x  2 root       engineers  4096 Jul 10 19:03 engineers
 ```
 
