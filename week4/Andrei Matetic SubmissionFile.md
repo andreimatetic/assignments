@@ -14,7 +14,7 @@
     ls -l /etc/shadow  
     -rw------- 1 root shadow 2880 Jul  8 18:16 /etc/shadow
     ```
-    
+
 2. Permissions on `/etc/gshadow` should allow only `root` read and write access.
 
     - Command to inspect permissions: ` ls -l /etc/gshadow `    
@@ -30,39 +30,37 @@ group shadow has read permission
 3. Permissions on `/etc/group` should allow `root` read and write access, and allow everyone else read access only.
 
     - Command to inspect permissions: `ls -l /etc/group`  
+    `-rw-r--r-- 1 root root 1311 Jun 16 20:49 /etc/group`
 
-    - Command to set permissions (if needed):
+    - Command to set permissions (if needed): **No changes needed**
 
 4. Permissions on `/etc/passwd` should allow `root` read and write access, and allow everyone else read access only.
 
-    - Command to inspect permissions: `ls -l /etc/passwd`  
+    - Command to inspect permissions: `ls -l /etc/passwd`   
+    `-rw-r--r-- 1 root root 1311 Jun 16 20:49 /etc/passwd`
 
-    - Command to set permissions (if needed):
+
+    - Command to set permissions (if needed): **No changes needed**
 
 ### Step 2: Create User Accounts
-```
-N.B. I updated /etc/default/useradd with:  
-SHELL=/bin/bash  
-HOME=/home  (uncommented)    
-```
 
 1. Add user accounts for `sam`, `joe`, `amy`, `sara`, and `admin`.
 
     - Command to add each user account (include all five users):  
 ```    
-sudo useradd -m sam
-sudo useradd -m joe
-sudo useradd -m amy
-sudo useradd -m sara
-sudo useradd -m admin
+sudo adduser sam
+sudo adduser joe
+sudo adduser amy
+sudo adduser sara
+sudo adduser admin
 ```
 
 2. Ensure that only the `admin` has general sudo access.
 
-    - Command to add `admin` to the `sudo` group: ` sudo usermod -a -G sudo admin `    
+    - Command to add `admin` to the `sudo` group: ` sudo usermod -aG sudo admin `    
 ```
 grep sudo /etc/group
-sudo:x:27:sysadmin,instructor,student,jack,admin 
+sudo:x:27:sysadmin,instructor,student,jack,admin
 ```
 
 ### Step 3: Create User Group and Collaborative Folder
@@ -72,18 +70,18 @@ sudo:x:27:sysadmin,instructor,student,jack,admin
     - Command to add group: `sudo addgroup engineers`
 ```
 Adding group `engineers' (GID 1015) ...
-Done. 
+Done.
 ```
 
 2. Add users `sam`, `joe`, `amy`, and `sara` to the managed group.
 
     - Command to add users to `engineers` group (include all four users):  
 ```
-sudo usermod -a -G engineers sam
-sudo usermod -a -G engineers joe
-sudo usermod -a -G engineers amy
-sudo usermod -a -G engineers sara
-   
+sudo usermod -aG engineers sam
+sudo usermod -aG engineers joe
+sudo usermod -aG engineers amy
+sudo usermod -aG engineers sara
+
 grep engineers /etc/group
 engineers:x:1015:sam,joe,amy,sara
 ```
@@ -98,10 +96,10 @@ engineers:x:1015:sam,joe,amy,sara
 
 4. Change ownership on the new engineers' shared folder to the `engineers` group.
 
-    - Command to change ownership of engineer's shared folder to engineer group:  `sudo chown :engineers /home/engineers/`   
+    - Command to change ownership of engineer's shared folder to engineer group:  `sudo chown engineers:engineers /home/engineers/`   
 ```
 ls -l /home/ | grep engineers
-drwxr-xr-x  2 root       engineers  4096 Jul 10 19:03 engineers
+drwxr-xr-x  2 engineers    engineers  4096 Jul 10 19:03 engineers
 ```
 
 ### Step 4: Lynis Auditing
