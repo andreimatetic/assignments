@@ -6,13 +6,13 @@ Use grep to isolate all of the losses that occurred on March 10, 12, and 15th, a
 
 \# some of the lines have 8 spaces (instead of a tab) between columns 2 & 3   
 `grep \- 031*_win_loss_player_data | sed s/'        '/'\t'/g >> Roulette_Losses`  
-![](images/A High Stakes Investigation-99c518be.png)
+![img-01]("./images/A High Stakes Investigation-99c518be.png")
 
 Preview the file Roulette_Losses and analyze the data and record:
 
 - The times the losses occurred on each day.<br/>
-`cat Roulette_Losses | cut -c1-4,27-28,36-37 --output-delimiter=' '  >> Loss_DateTimings `
-![](images/A High Stakes Investigation-964f0be3.png)
+`cat Roulette_Losses | cut -c1-4,27-28,36-37 --output-delimiter=' '  >> Loss_DateTimings `  
+![img-02](images/A High Stakes Investigation-964f0be3.png)
 
 - If there is a certain player that was playing during each of those times.
 \# Pull out the players during the loses. Cleanup extraneous spaces
@@ -39,7 +39,7 @@ okay, *overkill* in this case but my CDO wouldn't rest. **Mylie Schmidt** stuck 
 `awk -F, -f players.awk Roulette_Losses_thePlayers | sort -t":" -k 2nr`  
 > players.awk uploaded to github as part of as part of assignment
 
-![](images/A High Stakes Investigation-4060eba4.png)
+![]("images/A High Stakes Investigation-4060eba4.png")
 
 - The total count of times this player was playing.
 ` Mylie Schmidt: 13`
