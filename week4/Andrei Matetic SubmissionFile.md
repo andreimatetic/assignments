@@ -111,7 +111,8 @@ Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
 lynis is already the newest version (2.6.2-1).
-```
+```  
+N.B. I manually upgraded lynis to 3.0.5.
 
 2. Command to see documentation and instructions:  `man lynis`  
 
@@ -120,7 +121,7 @@ lynis is already the newest version (2.6.2-1).
 4. Provide a report from the Lynis output on what can be done to harden the system.
 
     - Screenshot of report output: `uploaded lynis.log to github with this file.`
-
+![](images/Andrei Matetic SubmissionFile-160d6bef.png)
 
 ### Bonus
 1. Command to install chkrootkit:  `sudo apt install chkrootkit`   
@@ -130,7 +131,9 @@ lynis is already the newest version (2.6.2-1).
 3. Command to run expert mode: `sudo chkrootkit -x`
 
 4. Provide a report from the chrootkit output on what can be done to harden the system.
-    - Screenshot of end of sample output:
+    - Screenshot of end of sample output:  
+
+![](images/Andrei Matetic SubmissionFile-754ce606.png)
 
 ---
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
