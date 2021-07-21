@@ -37,8 +37,10 @@ TarDocs/Programs/NetBeansProjects/HelloWorldApp/src/helloworldapp/HelloWorldApp.
 
 ### Step 2: Create, Manage, and Automate Cron Jobs
 
-1. Cron job for backing up the `/var/log/auth.log` file:
+1. Cron job for backing up the `/var/log/auth.log` file:  
+`sudo crontab -e`  to edit root crontab
 
+ `0 6 * * 3  tar czvvf /auth_backup.tgz /var/log/auth.log >/dev/null 2>&1`
 ---
 
 ### Step 3: Write Basic Bash Scripts
@@ -73,6 +75,7 @@ TarDocs/Programs/NetBeansProjects/HelloWorldApp/src/helloworldapp/HelloWorldApp.
 
 **Optional**
 - Commands to test the script and confirm its execution:  
+
 ```
 sysadmin@UbuntuDesktop:~$ sudo ./system.sh
 [sudo] password for sysadmin:
@@ -80,34 +83,35 @@ du: cannot access '/run/user/1000/gvfs': Permission denied
 lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
       Output information may be incomplete.
 
-sysadmin@UbuntuDesktop:~$ ls -lR backups/
-backups/:
-total 16
-drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 21:47 diskuse
-drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:35 freedisk
-drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:34 freemem
-drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:34 openlist
+sysadmin@UbuntuDesktop:~$ ls -lR backups/  
+backups/:  
+total 16  
+drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 21:47 diskuse  
+drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:35 freedisk  
+drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:34 freemem  
+drwxrwxr-x 2 sysadmin sysadmin 4096 Jul 17 20:34 openlist  
 
-backups/diskuse:
-total 4
+backups/diskuse:  
+total 4  
 -rw-r--r-- 1 root root 309 Jul 17 22:11 disk_usage.txt
 
-backups/freedisk:
-total 4
+backups/freedisk:  
+total 4  
 -rw-rw-r-- 1 sysadmin sysadmin 2109 Jul 17 22:11 free_disk.txt
 
 backups/freemem:
 total 4
--rw-rw-r-- 1 sysadmin sysadmin 248 Jul 17 22:11 free_mem.txt
+-rw-rw-r-- 1 sysadmin sysadmin 248 Jul 17 22:11 free_mem.txt  
 
-backups/openlist:
-total 24452
--rw-rw-r-- 1 sysadmin sysadmin 25038107 Jul 17 22:11 open_list.txt
-
+backups/openlist:  
+total 24452  
+-rw-rw-r-- 1 sysadmin sysadmin 25038107 Jul 17 22:11 open_list.txt  
 ```
-**Bonus**
-- Command to copy `system` to system-wide cron directory:
+Resultant text files uploaded to github.
 
+**Bonus**
+- Command to copy `system` to system-wide cron directory:  
+`sudo cp system.sh /etc/cron.weekly/`
 ---
 
 ### Step 4. Manage Log File Sizes
@@ -119,13 +123,23 @@ total 24452
     - Add your config file edits below:
 
     ```bash
-    [Your logrotate scheme edits here]
+    /var/log/auth.log
+    {
+      weekly
+      rotate 7
+      compress
+      delaycompress
+      notifempty
+      missingok
+    }
+
     ```
 ---
 
 ### Bonus: Check for Policy and File Violations
 
-1. Command to verify `auditd` is active:
+1. Command to verify `auditd` is active: `systemctl status auditd`  
+![](images/AndreiMateticWeek5-fd2c2a3d.png)
 
 2. Command to set number of retained logs and maximum log file size:
 
@@ -144,9 +158,9 @@ total 24452
     [Your solution edits here]
     ```
 
-4. Command to restart `auditd`:
+4. Command to restart `auditd`: `sudo systemctl restart auditd`
 
-5. Command to list all `auditd` rules:
+5. Command to list all `auditd` rules: `sudo auditd -l`
 
 6. Command to produce an audit report:
 
