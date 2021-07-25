@@ -127,8 +127,7 @@ Resultant text files uploaded to github.
     {
       weekly
       rotate 7
-      compress
-      delaycompress
+      delaycompress    # uncommented compress from `/etc/logrotate.conf`
       notifempty
       missingok
     }
@@ -146,47 +145,65 @@ Resultant text files uploaded to github.
     - Add the edits made to the configuration file below:
 
     ```bash
-    [Your solution edits here]
+    max_log_file = 35
+    num_logs = 7
     ```
 
-3. Command using `auditd` to set rules for `/etc/shadow`, `/etc/passwd` and `/var/log/auth.log`:
+3. Command using `auditd` to set rules for `/etc/shadow`, `/etc/passwd` and `/var/log/auth.log`:  
 
 
-    - Add the edits made to the `rules` file below:
+    - Add the edits made to the `rules` file below:  
 
     ```bash
-    [Your solution edits here]
+    -w /etc/shadow       -p wra -k hashpass_audit  
+    -w /etc/passwd       -p wra -k userpass_audit  
+    -w /var/log/auth.log -p wra -k authlog_audit
     ```
+
 
 4. Command to restart `auditd`: `sudo systemctl restart auditd`
 
-5. Command to list all `auditd` rules: `sudo auditd -l`
+5. Command to list all `auditd` rules: `sudo auditctl -l`
+![](images/AndreiMateticWeek5-74b9738d.png)
 
-6. Command to produce an audit report:
+6. Command to produce an audit report: `sudo aureport <parm>`  
 
-7. Create a user with `sudo useradd attacker` and produce an audit report that lists account modifications:
+![](images/AndreiMateticWeek5-c7a5a4a4.png)
 
-8. Command to use `auditd` to watch `/var/log/cron`:
+7. Create a user with `sudo useradd attacker` and produce an audit report that lists account modifications:  
+![](images/AndreiMateticWeek5-1ee1a548.png)
+8. Command to use `auditdctl` to watch `/var/log/cron`:  
+`sudo auditctl -w /var/log/cron -p wrxa -k varlogcron_audit`
 
-9. Command to verify `auditd` rules:
-
+9. Perform a listing that reveals changes to the `auditd` rules took affect:  
+![](images/AndreiMateticWeek5-cf4c59e2.png)
 ---
 
 ### Bonus (Research Activity): Perform Various Log Filtering Techniques
 
-1. Command to return `journalctl` messages with priorities from emergency to error:
+1. Command to return `journalctl` messages with priorities from emergency to error:  
+`journalctl -p emerg..err`
+> N.B. I added -e to list the most recent (i.e. end) entries  
 
-1. Command to check the disk usage of the system journal unit since the most recent boot:
+![](images/AndreiMateticWeek5-195316c5.png)
 
-1. Comand to remove all archived journal files except the most recent two:
+2. Command to check the disk usage of the system journal unit since the most recent boot:  
+
+`sudo journalctl -b 0 | wc -c`  
+254165272 ... approximately 254M
+
+3. Command to remove all archived journal files except the most recent two:  
+`sudo journalctl --vacuum-files=2`
 
 
-1. Command to filter all log messages with priority levels between zero and two, and save output to `/home/sysadmin/Priority_High.txt`:
+4. Command to filter all log messages with priority levels between zero and two, and save output to `/home/sysadmin/Priority_High.txt`:  
 
-1. Command to automate the last command in a daily cronjob. Add the edits made to the crontab file below:
+`journalctl -p 0..2 >> /home/sysadmin/Priority_High.txt`
 
+5. Command to automate the last command in a daily cronjob. Add the edits made to the crontab file below:
+`crontab -e` for the `sysadmin` crontab
     ```bash
-    [Your solution cron edits here]
+    @daily    journalctl -p 0..2 >> /home/sysadmin/Priority_High.txt
     ```
 
 ---
