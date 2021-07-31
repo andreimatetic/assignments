@@ -163,7 +163,7 @@ Resultant text files uploaded to github.
 
 4. Command to restart `auditd`: `sudo systemctl restart auditd`
 
-5. Command to list all `auditd` rules: `sudo auditctl -l`
+5. Command to list all `auditd` rules: `sudo auditctl -l`  
 ![](images/AndreiMateticWeek5-74b9738d.png)
 
 6. Command to produce an audit report: `sudo aureport <parm>`  
