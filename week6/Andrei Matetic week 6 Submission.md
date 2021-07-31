@@ -3,6 +3,7 @@
 Please edit this file by adding the solution commands on the line below the prompt.
 
 Save and submit the completed file for your homework submission.
+
 > As the Access Setup had us switch to `root`, I ran all the below commands as root (so there's no need for `sudo`)
 
 **Step 1: Shadow People**
@@ -83,10 +84,10 @@ tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN      
 tcp        0    288 scavenger-hunt:ssh      192.168.6.1:54703       ESTABLISHED 10060/sshd: sysd [p
 ```
 2. Exit the `root` account:
-    - `exit`
+     `exit`
 
 3. SSH to the target machine using your `sysd` account and port `2222`:
-    - `ssh sysd@192.168.6.105 -p 2222`  
+     `ssh sysd@192.168.6.105 -p 2222`  
 
 
 4. Use `sudo` to switch to the root user:
