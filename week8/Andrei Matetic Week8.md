@@ -2,7 +2,7 @@
 
 ## Phase 1: "I'd like to Teach the World to `Ping`"  
 
-created a file with the CIDR address blocks associated with the Hollywood servers  
+I created a file with the CIDR address blocks associated with the Hollywood servers  
 
 ```  
 sysadmin@UbuntuDesktop:~$ cat hollywoo.txt  
@@ -16,7 +16,8 @@ sysadmin@UbuntuDesktop:~$ cat hollywoo.txt
 ```
 sysadmin@UbuntuDesktop:~/Desktop/week8$ for cidr in $(cat hollywoo.txt); do fping -c 1 -r 1 -g $cidr 2>/dev/null ; done    
 167.172.144.11 : [0], 84 bytes, 41.0 ms (41.0 avg, 0% loss)  
-```
+```  
+As RockStar Corp doesn't want any of their servers responding to ICMP requests, the server at 167.172.144.11 needs to be reconfigured not to send replies to a `ping` request. ICMP operates at layer 3.
 
 ## Phase 2:  "Some `SYN` for Nothin"
 
