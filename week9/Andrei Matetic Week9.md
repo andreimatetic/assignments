@@ -72,9 +72,7 @@ Your mission:
 **Issue:** During the attack, it was determined that the Empire also took down the primary DNS server of `princessleia.site`.
 
 Fortunately, the DNS server for `princessleia.site` is backed up and functioning.
-However, the Resistance was unable to access this important site during the attacks and now they need you to prevent this from happening again.
-
-The Resistance's networking team provided you with a backup DNS server of: `ns2.galaxybackup.com`.
+However, the Resistance was unable to access this important site during the attacks and now they need you to prevent this from happening again. The Resistance's networking team provided you with a backup DNS server of: `ns2.galaxybackup.com`.
 
 Your mission:
 
@@ -94,13 +92,13 @@ princessleia.site	nameserver = ns26.domaincontrol.com.
 
 **Issue:** The network traffic from the planet of Batuu to the planet of Jedha is very slow.
 
-You have been provided a network map with a list of planets connected between Batuu and Jedha.
-
-It has been determined that the slowness is due to the Empire attacking Planet N.
+You have been provided a network map with a list of planets connected between Batuu and Jedha. It has been determined that the slowness is due to the Empire attacking Planet N.
 
 Your Mission:
 
 * View the Galaxy Network Map and determine the OSPF shortest path from Batuu to Jedha.
+
+![](images/Andrei Matetic Week9-b7d15c9d.png)
 
 * Confirm your path doesn't include Planet N in its route.
 
@@ -131,8 +129,8 @@ Once you have decrypted the traffic, figure out the following Dark Side informat
 Document these IP and MAC Addresses, as the resistance will use these IP addresses to launch a retaliatory attack.
 
 ```
-00:13:ce:55:98:ef 172.16.0.101
-00:0f:66:e3:e4:01 172.16.0.1
+00:13:ce:55:98:ef   172.16.0.101
+00:0f:66:e3:e4:01   172.16.0.1
 ```  
 
 ## Mission 7
@@ -146,4 +144,3 @@ Your Mission:
 **Note:** A backup option is provided in the TXT record (as a website) in case the main telnet site is unavailable Take a screen shot of the results.
 
 `princessleia.site	text = "Run the following in a command line: telnet towel.blinkenlights.nl or as a backup access in a browser: www.asciimation.co.nz"`
-
