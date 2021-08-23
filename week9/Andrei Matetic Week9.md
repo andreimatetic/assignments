@@ -119,8 +119,10 @@ Your Mission:
 
 ![](images/aircrack.png)
 
-Use the Dark Side's key to decrypt the wireless traffic in Wireshark. Hint: The format for they key to decrypt wireless is `<Wireless_key>:<SSID>`.
-`dictionary:linksys`  
+Use the Dark Side's key to decrypt the wireless traffic in Wireshark. Hint: The format for they key to decrypt wireless is `<Wireless_key>:<SSID>`.  
+![](images/w9SSID.png)
+
+Making a key of  `dictionary:linksys`  
 
 Once you have decrypted the traffic, figure out the following Dark Side information:
 
@@ -144,3 +146,5 @@ Your Mission:
 **Note:** A backup option is provided in the TXT record (as a website) in case the main telnet site is unavailable Take a screen shot of the results.
 
 `princessleia.site	text = "Run the following in a command line: telnet towel.blinkenlights.nl or as a backup access in a browser: www.asciimation.co.nz"`
+
+![](images/sw.png)
