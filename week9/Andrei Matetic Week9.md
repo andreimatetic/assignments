@@ -14,7 +14,7 @@ Your mission:
 
 ```bash
 sysadmin@UbuntuDesktop:~$ nslookup -type=mx starwars.com
-Server:		8.8.8.8
+Server:	8.8.8.8
 Address:	8.8.8.8#53
 
 Non-authoritative answer:
@@ -30,11 +30,13 @@ The new servers `asltx.l.google.com` and `asltx.2.google.com` are not defined as
 
 * Document what a corrected DNS record should be.  
 
-Replace the above listed mail servers with:  
+Replace the above listed mail servers with: 
+
 ```bash
 starwars.com.   IN  MX  10  asltx.l.google.com.
 starwars.com.   IN  MX  20  asltx.2.google.com.
 ```
+
 > In setting the mail server priorities, I assumed these entries are replacing all of the previous five. Using 10 & 20 for priority there's enough room to add other servers as warranted.
 ## Mission 2
 
@@ -44,7 +46,8 @@ Many of the alert bulletins are being blocked or going into spam folders. This i
 
 Your mission:
 
-* Determine and document the `SPF` for `theforce.net` using NSLOOKUP.   
+* Determine and document the `SPF` for `theforce.net` using NSLOOKUP. 
+
 ```bash
 sysadmin@UbuntuDesktop:~$ nslookup -type=any theforce.net | grep spf
 theforce.net	text = "v=spf1 a mx mx:smtp.secureserver.net include:aspmx.googlemail.com ip4:104.156.250.80 ip4:45.63.15.159 ip4:45.63.4.215"
@@ -63,9 +66,20 @@ Your mission:
 
 * Document how a CNAME should look by viewing the CNAME of `www.theforce.net` using NSLOOKUP.
 
-* Explain why the sub page of `resistance.theforce.net` isn't redirecting to theforce.net.
+```bash
+sysadmin@UbuntuDesktop:~$ nslookup -type=any www.theforce.net
+Server:	8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+www.theforce.net	canonical name = theforce.net.
+```
+
+* Explain why the sub page of `resistance.theforce.net` isn't redirecting to `theforce.net`.
+There's no CNAME (canonical name) record that tells DNS to map queries for the hostname `resistance.theforce.net` to `theforce.net`.
 
 * Document what a corrected DNS record should be.
+`resistance.theforce.net.  CNAME theforce.net.`
 
 ## Mission 4
 
@@ -77,21 +91,43 @@ However, the Resistance was unable to access this important site during the atta
 Your mission:
 
 * Confirm the DNS records for `princessleia.site`.
+
 ```bash
 sysadmin@UbuntuDesktop:~$ nslookup -type=ns princessleia.site
-Server:		8.8.8.8
+Server:	8.8.8.8
 Address:	8.8.8.8#53
 
 Non-authoritative answer:
 princessleia.site	nameserver = ns25.domaincontrol.com.
 princessleia.site	nameserver = ns26.domaincontrol.com.
-```
+
+sysadmin@UbuntuDesktop:~$ dig -t NS princessleia.site
+
+; <<>> DiG 9.11.3-1ubuntu1.15-Ubuntu <<>> -t NS princessleia.site
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26606
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;princessleia.site.		IN	NS
+
+;; ANSWER SECTION:
+princessleia.site.	3599	IN	NS	ns25.domaincontrol.com.
+princessleia.site.	3599	IN	NS	ns26.domaincontrol.com.
+```  
+
 * Document how you would fix the DNS record to prevent this issue from happening again.
+Another NS (nameserver) record for `ns2.galaxybackup.com` would need to be added.
+
+`princessleia.site. 1800 IN NS    ns2.galaxybackup.com.`
+> Also use a smaller TTL so we'll recheck sooner in case the main DNS servers are back up.
 
 ## Mission 5
 
 **Issue:** The network traffic from the planet of Batuu to the planet of Jedha is very slow.
-
 You have been provided a network map with a list of planets connected between Batuu and Jedha. It has been determined that the slowness is due to the Empire attacking Planet N.
 
 Your Mission:
@@ -103,6 +139,13 @@ As planet N is under attack, for routing purposes, publish an update to treat it
 * Confirm your path doesn't include Planet N in its route.
 
 * Document this shortest path so it can be used by the Resistance to develop a static route to improve the traffic.
+
+```
+Batuu > D > C > E > F > J > I > L > Q > T > V > Jedha
+      1   2   1   1   1   1   6   4   2   2   2         (23)
+```  
+
+> Looking back at our slack conversation, the E -> F link was marked as having a cost of 5 but in the map it's listed as 1 (E -> I has cost 5).
 
 ## Mission 6
 
