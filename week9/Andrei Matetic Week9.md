@@ -98,7 +98,7 @@ Your Mission:
 
 * View the Galaxy Network Map and determine the OSPF shortest path from Batuu to Jedha.
 
-![](images/Andrei Matetic Week9-b7d15c9d.png)
+As planet N is under attack, for routing purposes, publish an update to treat its links as having infinite cost.
 
 * Confirm your path doesn't include Planet N in its route.
 
