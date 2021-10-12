@@ -1,0 +1,36 @@
+---
+
+- name: install/configure ELK stack
+  hosts: elk
+  become: true
+  tasks:
+  - name: VM memory config
+    ansible.posix.sysctl:
+      name: vm.max_map_count
+      state: present
+      value: '262144'
+  - name: install docker & pip3
+    apt:
+      state: present
+      update_cache: yes
+      pkg:
+      - docker.io
+      - python3-pip
+  - name: install docker pip package
+    pip:
+      state: present
+      name:  docker
+  - name: elk container
+    docker_container:
+      state: started
+      restart_policy: always
+      name:  elk
+      image: sebp/elk:761
+      published_ports:
+      - 5601:5601
+      - 9200:9200
+      - 5044:5044 
+  - name: enable docker service
+    systemd:
+      name: docker
+      enabled: yes
