@@ -32,6 +32,8 @@ Years ago, Replicants had a systems breach and several administrators passwords 
 
 **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies.
 
+![](Images/bruteforce.png)
+
 **Mitigation:**  Recognize and slow down repeated signon attempts from the same IP (regardless if it's for the same user or not).  Add a captcha between login attempts. If not already in use, consider adding key lengthening (e.g. PBKDF2) or increasing the iteration count. While not strictly an anti-brute force measure, it'll take a little longer on the server to validate each login attempt. After a certain threshold, refuse to accept additional attempts from the same IP (e.g. fail2ban).
 
 ### Web Application 3: *Where's the BeEF?*
