@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>iPhone consolidated.db map</name>
+    <description/>
+    <Style id="icon-1899-673AB7-labelson">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="line-0097A7-4000-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0097A7-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0097A7-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0097A7-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0097A7-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-097138-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-097138-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-097138-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-097138-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-097138-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-673AB7-4000-nodesc-normal">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-673AB7-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ffb73a67</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-673AB7-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-673AB7-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-673AB7-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-C2185B-4000-nodesc-normal">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>4</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-C2185B-4000-nodesc-highlight">
+      <LineStyle>
+        <color>ff5b18c2</color>
+        <width>6</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-C2185B-4000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-C2185B-4000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-C2185B-4000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>iPhone tracking</name>
+      <Placemark>
+        <name>Location on 06/13/12</name>
+        <styleUrl>#line-673AB7-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.11547,38.877676,0
+            -77.11447,38.877837,0
+            -77.115009,38.875957,0
+            -77.117031,38.878693,0
+            -77.118474,38.877631,0
+            -77.114785,38.875313,0
+            -77.115183,38.875168,0
+            -77.119116,38.877244,0
+            -77.119321,38.876755,0
+            -77.11491,38.87982,0
+            -77.114785,38.87982,0
+            -77.118154,38.874937,0
+            -77.113412,38.875313,0
+            -77.119583,38.878181,0
+            -77.117704,38.874412,0
+            -77.114111,38.874412,0
+            -77.116549,38.874025,0
+            -77.119844,38.875824,0
+            -77.113412,38.87982,0
+            -77.113812,38.874412,0
+            -77.120399,38.877566,0
+            -77.119276,38.874937,0
+            -77.116436,38.880615,0
+            -77.113001,38.87982,0
+            -77.120399,38.876064,0
+            -77.116503,38.880797,0
+            -77.11312,38.874381,0
+            -77.114455,38.87359,0
+            -77.112314,38.87982,0
+            -77.111135,38.87813,0
+            -77.112764,38.88027,0
+            -77.117833,38.881107,0
+            -77.113458,38.873674,0
+            -77.116172,38.88141,0
+            -77.120399,38.87982,0
+            -77.113063,38.87351,0
+            -77.111416,38.87982,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Location on 07/02/12</name>
+        <styleUrl>#line-097138-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.117099,38.880923,0
+            -77.113213,38.876665,0
+            -77.110561,38.878532,0
+            -77.117549,38.88138,0
+            -77.110774,38.881751,0
+            -77.111576,38.882403,0
+            -77.11156,38.882398,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Location on 07/05/12</name>
+        <styleUrl>#line-C2185B-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.114602,38.879486,0
+            -77.114411,38.87982,0
+            -77.114943,38.880087,0
+            -77.114111,38.878918,0
+            -77.115409,38.87982,0
+            -77.11455,38.878725,0
+            -77.11456,38.88027,0
+            -77.115121,38.880349,0
+            -77.113341,38.879176,0
+            -77.115908,38.87982,0
+            -77.113572,38.878738,0
+            -77.115394,38.878529,0
+            -77.113412,38.878818,0
+            -77.115555,38.878386,0
+            -77.115499,38.880639,0
+            -77.116316,38.879,0
+            -77.113116,38.878358,0
+            -77.113412,38.880821,0
+            -77.113213,38.880721,0
+            -77.114871,38.87774,0
+            -77.114253,38.881243,0
+            -77.116429,38.880704,0
+            -77.11456,38.877566,0
+            -77.114858,38.877547,0
+            -77.115954,38.881199,0
+            -77.116372,38.877955,0
+            -77.112699,38.877888,0
+            -77.117052,38.878334,0
+            -77.117076,38.878287,0
+            -77.116679,38.881094,0
+            -77.117528,38.87982,0
+            -77.117592,38.87982,0
+            -77.113911,38.881823,0
+            -77.111915,38.878317,0
+            -77.113341,38.881751,0
+            -77.113662,38.877116,0
+            -77.111416,38.87982,0
+            -77.111416,38.879069,0
+            -77.111416,38.878854,0
+            -77.117916,38.87982,0
+            -77.115782,38.876956,0
+            -77.113735,38.882117,0
+            -77.117704,38.880721,0
+            -77.111122,38.879524,0
+            -77.111416,38.878317,0
+            -77.115009,38.882223,0
+            -77.110943,38.879345,0
+            -77.117423,38.877646,0
+            -77.113129,38.882189,0
+            -77.117532,38.881354,0
+            -77.117665,38.881387,0
+            -77.111281,38.881167,0
+            -77.114411,38.876386,0
+            -77.110646,38.87982,0
+            -77.110774,38.880464,0
+            -77.113293,38.88251,0
+            -77.115562,38.882593,0
+            -77.115908,38.882524,0
+            -77.115908,38.87644,0
+            -77.111416,38.881571,0
+            -77.114111,38.876214,0
+            -77.110387,38.87941,0
+            -77.118643,38.880541,0
+            -77.118004,38.877416,0
+            -77.117683,38.877095,0
+            -77.110261,38.879486,0
+            -77.113734,38.882824,0
+            -77.111262,38.881812,0
+            -77.118021,38.877169,0
+            -77.110218,38.87859,0
+            -77.11895,38.880692,0
+            -77.109998,38.87982,0
+            -77.111416,38.876815,0
+            -77.10995,38.878918,0
+            -77.118787,38.87774,0
+            -77.113512,38.883125,0
+            -77.116528,38.87604,0
+            -77.119052,38.878017,0
+            -77.10978,38.879781,0
+            -77.113662,38.8832,0
+            -77.118902,38.881322,0
+            -77.110359,38.88141,0
+            -77.111416,38.882405,0
+            -77.113458,38.883234,0
+            -77.112835,38.88314,0
+            -77.119611,38.87982,0
+            -77.114111,38.883425,0
+            -77.109467,38.879224,0
+            -77.112197,38.875901,0
+            -77.036074,38.940731,0
+            -77.1139,38.966105,0
+            -77.014895,38.942083,0
+            0,0,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Location on 07/10/12</name>
+        <styleUrl>#line-0097A7-4000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -77.078236,38.851417,0
+            -77.078283,38.851609,0
+            -77.078371,38.85117,0
+            -77.07782,38.851677,0
+            -77.07752,38.851121,0
+            -77.078806,38.850804,0
+            -77.078192,38.852224,0
+            -77.077949,38.850482,0
+            -77.079534,38.852033,0
+            -77.079673,38.85194,0
+            -77.078146,38.852732,0
+            -77.076363,38.851329,0
+            -77.078026,38.852949,0
+            -77.078478,38.849775,0
+            -77.076904,38.852779,0
+            -77.079547,38.849989,0
+            -77.076934,38.853072,0
+            -77.080654,38.8522,0
+            -77.080873,38.851577,0
+            -77.075484,38.851778,0
+            -77.077102,38.853551,0
+            -77.075872,38.85303,0
+            -77.075822,38.853119,0
+            -77.075723,38.853167,0
+            -77.074885,38.850976,0
+            -77.075656,38.853299,0
+            -77.075674,38.853351,0
+            -77.077384,38.854133,0
+            -77.075484,38.853309,0
+            -77.077729,38.854281,0
+            -77.081828,38.852195,0
+            -77.081659,38.849962,0
+            -77.076141,38.854042,0
+            -77.080617,38.848916,0
+            -77.075241,38.853561,0
+            -77.075233,38.853565,0
+            -77.077056,38.854582,0
+            -77.08102,38.853913,0
+            -77.080347,38.848442,0
+            -77.0812,38.854008,0
+            -77.075484,38.854281,0
+            -77.073663,38.851683,0
+            -77.08267,38.852779,0
+            -77.080873,38.848272,0
+            -77.076606,38.855032,0
+            -77.078918,38.84761,0
+            -77.076655,38.85513,0
+            -77.07805,38.855354,0
+            -77.079975,38.847709,0
+            -77.074735,38.854281,0
+            -77.079333,38.855354,0
+            -77.076045,38.855314,0
+            -77.083069,38.849374,0
+            -77.075895,38.847466,0
+            -77.0807,38.855396,0
+            -77.074732,38.854908,0
+            -77.07697,38.847054,0
+            -77.083344,38.849399,0
+            -77.0735,38.85395,0
+            -77.082017,38.854828,0
+            -77.083776,38.852779,0
+            -77.073262,38.848805,0
+            -77.082221,38.847897,0
+            -77.075034,38.855483,0
+            -77.0819,38.855354,0
+            -77.073299,38.854513,0
+            -77.08436,38.850107,0
+            -77.072526,38.848932,0
+            -77.073898,38.847477,0
+            -77.072917,38.854711,0
+            -77.08114,38.84657,0
+            -77.085086,38.850914,0
+            -77.073271,38.855238,0
+            -77.071366,38.850526,0
+            -77.084345,38.854484,0
+            -77.074585,38.856385,0
+            -77.0763,38.845814,0
+            -77.071634,38.854067,0
+            -77.085305,38.85326,0
+            -77.08559,38.849962,0
+            -77.082969,38.84677,0
+            -77.076103,38.85713,0
+            -77.076125,38.845697,0
+            -77.073031,38.855841,0
+            -77.076332,38.857431,0
+            -77.085545,38.848813,0
+            -77.083183,38.846341,0
+            -77.081242,38.845383,0
+            -77.08573,38.854196,0
+            -77.080825,38.845227,0
+            -77.071046,38.848001,0
+            -77.076767,38.85793,0
+            -77.074286,38.857286,0
+            -77.081527,38.857532,0
+            -77.075173,38.845218,0
+            -77.085764,38.854595,0
+            -77.07341,38.845846,0
+            -77.084467,38.84677,0
+            -77.074509,38.84531,0
+            -77.075147,38.84508,0
+            -77.083515,38.845992,0
+            -77.086106,38.827058,0
+            -77.085503,38.827645,0
+            -77.086744,38.826373,0
+            -77.084939,38.827162,0
+            -77.084797,38.827121,0
+            -77.084939,38.828111,0
+            -77.084429,38.826393,0
+            -77.085072,38.825739,0
+            -77.084777,38.825739,0
+            -77.084328,38.825977,0
+            -77.084823,38.82554,0
+            -77.084766,38.828593,0
+            -77.083794,38.826233,0
+            -77.08668,38.829004,0
+            -77.086831,38.829059,0
+            -77.08821,38.825739,0
+            -77.08354,38.828099,0
+            -77.086338,38.829494,0
+            -77.083295,38.828286,0
+            -77.084742,38.824727,0
+            -77.083183,38.828314,0
+            -77.089304,38.825739,0
+            -77.089857,38.82694,0
+            -77.084857,38.824171,0
+            -77.082514,38.825739,0
+            -77.082114,38.826597,0
+            -77.085372,38.830189,0
+            -77.082103,38.826145,0
+            -77.088276,38.82425,0
+            -77.082542,38.828958,0
+            -77.083868,38.829945,0
+            -77.090455,38.827026,0
+            -77.086178,38.823592,0
+            -77.082138,38.825405,0
+            -77.090306,38.825739,0
+            -77.090755,38.82664,0
+            -77.08228,38.824861,0
+            -77.088837,38.830124,0
+            -77.088022,38.830504,0
+            -77.091012,38.826382,0
+            -77.090808,38.825739,0
+            -77.08821,38.823485,0
+            -77.087666,38.830801,0
+            -77.089407,38.830245,0
+            -77.08121,38.825401,0
+            -77.091454,38.82674,0
+            -77.088317,38.830889,0
+            -77.086432,38.822834,0
+            -77.091555,38.827288,0
+            -77.091336,38.82839,0
+            -77.084312,38.822941,0
+            -77.087136,38.831486,0
+            -77.091454,38.824737,0
+            -77.080363,38.825405,0
+            -77.087835,38.822358,0
+            -77.085849,38.831979,0
+            -77.092327,38.826302,0
+            -77.080032,38.828705,0
+            -77.092278,38.825347,0
+            -77.085412,38.821943,0
+            -77.089407,38.822584,0
+            -77.08575,38.821876,0
+            -77.092551,38.825739,0
+            -77.092723,38.828786,0
+            -77.086712,38.832499,0
+            -77.088958,38.832048,0
+            -77.087611,38.821683,0
+            -77.0801,38.824111,0
+            -77.092278,38.824171,0
+            -77.080369,38.830483,0
+            -77.089108,38.832198,0
+            -77.08821,38.832499,0
+            -77.078833,38.827419,0
+            -77.092664,38.829642,0
+            -77.09345,38.82767,0
+            -77.093518,38.827183,0
+            -77.079077,38.829104,0
+            -77.09345,38.828262,0
+            -77.078571,38.827992,0
+            -77.082833,38.821642,0
+            -77.09345,38.825095,0
+            -77.08806,38.832949,0
+            -77.092759,38.823659,0
+            -77.093659,38.829302,0
+            -77.086712,38.820668,0
+            -77.091497,38.822212,0
+            -77.091865,38.82233,0
+            -77.078174,38.829145,0
+            -77.091953,38.831748,0
+            -77.093178,38.830655,0
+            -77.080167,38.831748,0
+            -77.088734,38.820781,0
+            -77.092977,38.823129,0
+            -77.090306,38.821232,0
+            -77.091849,38.82208,0
+            -77.077557,38.827819,0
+            -77.085649,38.833803,0
+            -77.07805,38.824451,0
+            -77.083183,38.820588,0
+            -77.085787,38.833946,0
+            -77.078271,38.823874,0
+            -77.099779,38.830133,0
+            -77.075093,38.850227,0
+            -77.137915,38.814035,0
+            -77.106197,38.879403,0
+            -77.045929,38.792516,0
+            -77.024934,38.821347,0
+            -77.108225,38.894849,0
+            -77.042539,38.880922,0
+            -77.164562,38.782459,0
+            -77.05579,38.898698,0
+            -77.041813,38.896281,0
+            -77.053477,38.907129,0
+            -77.033904,38.899216,0
+            -77.207815,38.848229,0
+            -77.207566,38.862644,0
+            -77.019659,38.897539,0
+            -77.159514,38.749346,0
+            -77.043517,38.912482,0
+            -77.018223,38.908532,0
+            -77.093383,38.933238,0
+            -76.992359,38.90048,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>EXIFMetadata.csv</name>
+      <Placemark>
+        <name>IMG_0042.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:33:36 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:33:36 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0043.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:34:31 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:34:31 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0045.JPG</name>
+        <address>38.89133333 -77.02283333</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:35:50 CDT<br>Latitude: 38.89133333<br>Longitude: -77.02283333]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:35:50 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89133333</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.02283333</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0044.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:34:50 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:34:50 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0046.JPG</name>
+        <address>38.89133333 -77.0225</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:36:30 CDT<br>Latitude: 38.89133333<br>Longitude: -77.0225]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:36:30 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89133333</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0225</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0047.JPG</name>
+        <address>38.89083333 -77.02216667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:37:16 CDT<br>Latitude: 38.89083333<br>Longitude: -77.02216667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:37:16 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89083333</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.02216667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0048.JPG</name>
+        <address>38.89083333 -77.02216667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:37:37 CDT<br>Latitude: 38.89083333<br>Longitude: -77.02216667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:37:37 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89083333</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.02216667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0049.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:41:41 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:41:41 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0050.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:41:53 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:41:53 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0051.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:42:03 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:42:03 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0052.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:42:48 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:42:48 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0053.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:44:13 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:44:13 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0054.JPG</name>
+        <address>38.89766667 -77.01966667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:49:25 CDT<br>Latitude: 38.89766667<br>Longitude: -77.01966667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:49:25 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89766667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01966667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0055.JPG</name>
+        <address>38.89766667 -77.01966667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:49:37 CDT<br>Latitude: 38.89766667<br>Longitude: -77.01966667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:49:37 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89766667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01966667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0056.JPG</name>
+        <address>38.89766667 -77.01966667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:49:49 CDT<br>Latitude: 38.89766667<br>Longitude: -77.01966667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:49:49 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89766667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01966667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0057.JPG</name>
+        <address>38.89766667 -77.01966667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:50:07 CDT<br>Latitude: 38.89766667<br>Longitude: -77.01966667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:50:07 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89766667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01966667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0058.JPG</name>
+        <address>38.89766667 -77.01966667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:50:20 CDT<br>Latitude: 38.89766667<br>Longitude: -77.01966667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:50:20 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89766667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01966667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0059.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:50:34 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:50:34 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0060.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:50:50 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:50:50 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0061.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:50:53 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:50:53 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0062.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:51:03 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:51:03 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0064.JPG</name>
+        <address>38.9085 -77.01816667</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:51:44 CDT<br>Latitude: 38.9085<br>Longitude: -77.01816667]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:51:44 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.9085</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.01816667</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0063.JPG</name>
+        <description><![CDATA[Date Created: 2012-07-08 12:51:14 CDT<br>Latitude: <br>Longitude: ]]></description>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:51:14 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value/>
+          </Data>
+          <Data name="Longitude">
+            <value/>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0065.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 12:59:55 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 12:59:55 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0066.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 13:00:01 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 13:00:01 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0067.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 13:00:07 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 13:00:07 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0068.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 13:00:12 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 13:00:12 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0069.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 13:00:23 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 13:00:23 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IMG_0070.JPG</name>
+        <address>38.89166667 -77.0235</address>
+        <description><![CDATA[Date Created: 2012-07-08 13:02:23 CDT<br>Latitude: 38.89166667<br>Longitude: -77.0235]]></description>
+        <styleUrl>#icon-1899-673AB7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="Date Created">
+            <value>2012-07-08 13:02:23 CDT</value>
+          </Data>
+          <Data name="Latitude">
+            <value>38.89166667</value>
+          </Data>
+          <Data name="Longitude">
+            <value>-77.0235</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
